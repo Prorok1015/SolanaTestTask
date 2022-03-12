@@ -10,7 +10,7 @@ describe("testApp", () => {
 
   it("Is initialized!", async () => {
     // Add your test here.
-    const tx = await program.rpc.initialize({});
+    const tx = await program.rpc.doMsg({});
     console.log("Your transaction signature", tx);
   });
 });
